@@ -2,6 +2,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 import Login from '../components/Login';
 import Spacer from '../components/Spacer';
+import BgStyle from '../components/BgStyle';
 
 const useStyles = createUseStyles({
     setupHeading: {
@@ -36,7 +37,7 @@ const useStyles = createUseStyles({
 function SetupScreen() {
     const classes = useStyles();
     return (
-        <div>
+        <BgStyle>
             <div className={classes.setupHeading}>
                 <p><span>Let's setup</span><span>your profile.</span></p>
             </div>
@@ -45,7 +46,7 @@ function SetupScreen() {
                     <Login />
                 </Spacer>
             </>
-        </div>
+        </BgStyle>
     )
 }
 

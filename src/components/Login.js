@@ -13,7 +13,9 @@ const useStyles = createUseStyles({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        position: 'relative'
+        position: 'relative',
+        zIndex: 1,
+
     },
     loginAvatarContainer: {
 

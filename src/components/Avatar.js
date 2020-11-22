@@ -6,7 +6,8 @@ const useStyles = createUseStyles({
         width: '100%',
         height: '100%',
         borderRadius: '50%',
-        border: isBorder ? '5px solid black' : 'auto'
+        // border: isBorder ? '5px solid rgba(75, 75, 75,.2)' : 'auto',
+        zIndex: 0
     })
 })
 
